@@ -1,0 +1,64 @@
+header {
+    background-color: #cdb4db;
+}
+
+.nav .nav-item .nav-link {
+    color: #ffc8dd;
+}
+
+.nav {
+    margin-top: -20px;
+}
+
+h2 {
+    margin-left: 45%;
+}
+
+
+
+/* estilos tarjetas*/
+
+
+#tarjetas .card1 {
+
+    margin-left: 300px;
+    margin-top: -20.5%;
+}
+
+
+
+#tarjetas .card2 {
+    margin-left:  550px;;
+    margin-top: -16.3%;
+
+}
+
+#ubicacion {
+    margin-left: 48.5%;
+    margin-top: -17.2%;
+}
+footer{
+    background-color:  #CB997E;
+    height: 350px
+}
+footer .redes{
+
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+
+}
+a{
+    margin-top: 40px;
+}
+
+form{
+    width: 40%;
+    margin-left: 50%;
+    margin-top: -12%;
+}
+small{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}

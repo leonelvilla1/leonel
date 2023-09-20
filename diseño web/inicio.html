@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página web</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <h2>página web</h2>
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="http://">menu</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.mercadolibre.com.ar/#from=homecom">home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="quienessomos.html">contacto</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="soporte.html">soporte</a>
+      </li>
+      <li class="nav-item">
+      </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">menu</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="https://www.mercadolibre.com.ar/ofertas#nav-header">Ofertas</a></li>
+        <li><a class="dropdown-item" href="https://www.mercadolibre.com.ar/gz/home/navigation#nav-header">historial de busqueda</a></li>
+        <li><a class="dropdown-item" href="https://www.mercadolibre.com/jms/mla/lgz/login?platform_id=ML&go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fsyi%2Fcore%2Flist&loginType=sell#nav-header"> </a>vender </a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="https://www.mercadolibre.com/jms/mla/lgz/msl/login/H4sIAAAAAAAEAzWNSw6DMAxE75I1gj3LXiQywYBVh0S2KaCKu9dUYjlvft_AZaY12lkx9AGPypTIQhMqg01FcqTRjcyOlAwfCXcEBDIaiob-ew_NOL7QS_fUBKzoIdhsiROX3dn_yxlpxMN7K3DccfgQ3u7TmIuLxaxq33X5hJTKtlqbURKMhWkQbFPJLYi7sW6SFlDUjkktXI3vqEUTSO_Qm2x4_QAZcyDg5QAAAA/user">mis compras</a></li>
+      </ul>
+    </li>
+    </ul>
+  </header>
+  <section id="banner">
+    <img class="imgbanner" src="imagenes/photo-1693845886349-54208259fe49 (1).webp" width="100%">
+    </div>
+  </section>
+  <!--ACA ESTA LAS TARJETAS IMPORTADAS DESDE BOOSTRAP-->
+  <section id="tarjetas">
+    <div class="card card0" style="width: 18rem;">
+      <img src="imagenes/photo-1597484661643-2f5fef640dd1.webp" class="card-img-top" alt="soporte">
+      <div class="card-body">
+        <p class="card-text">Ayuda y solución a dudas sobre la página web.</p>
+        <a href="#" class="btn btn-primary">soporte</a>
+      </div>
+    </div>
+    <div class="card card1" style="width: 15rem;">
+      <img src="imagenes/photo-1596524430615-b46475ddff6e.webp" alt="...">
+      <div class="card-body">
+        <p class="card-text">Atencion 24 hs.</p>
+        <a href="#" class="btn btn-primary">contacto</a>
+
+      </div>
+    </div>
+    <div class="card card2" style="width: 15rem;">
+      <img src="imagenes/img.webp" alt="...">
+      <div class="card-body">
+        <p class="card-text">Redes sociales</p>
+        <a href="#" class="btn btn-primary">instagram</a>
+
+      </div>
+    </div>
+  </section>
+  <section id="ubicacion">
+    <inframe class="mapa">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2802.784441851571!2d-67.71785987792803!3d-53.792132492001386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1694033260846!5m2!1ses-419!2sar"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>"
+  </section>
+  <footer>
+    <ul class="redes">
+      <a href="https://www.instagram.com/"><img src="imagenes/iconmonstr-instagram-14.svg" alt="logo de insta" width="30px"></a>
+      <a href="https://www.facebook.com/"><img src="imagenes/iconmonstr-facebook-4.svg" alt="logo de face" width="30px"></a>
+      <a href="https://twitter.com/?lang=es/"><img src="imagenes/iconmonstr-twitter-4.svg" alt="logo de twitter" width="30px"></a>
+      <a href="https://web.whatsapp.com/"><img src="imagenes/iconmonstr-whatsapp-4.svg" alt="logo de whats" width="30px"></a>
+    </ul>
+  <div class="formulario">
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">correo electronico</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">No compartas tu correo electronico con nadie mas.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">contraseña</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Guardar contraseña</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Entrar</button>
+    </form>
+  </div>
+  <small>Copyright ©  Leonel Villa.</small>
+</footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</html>
